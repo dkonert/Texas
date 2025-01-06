@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The State of Texas</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>         
+                <ul id="items">
+                    <li><sup>1</sup><img id="logo" src="map.png"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="austin.html">Austin</a></li>
+                    <li><a href="houston.html">Houston</a></li>
+                    <li><a href="dallas.html">Dallas</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="contact">
+            <div class="title">
+                <h1>CONTACT US</h1>           
+            </div>
+            <div class="form">
+                <form method="GET">
+                    <label for="first">First Name:</label>
+                    <input id="first" type="text" name="first" placeholder="John" required>
+                    <br>
+                    <br>
+                    <label for="last">Last Name:</label>
+                    <input id="last" type="text" name="last" placeholder="Doe"required>
+                    <br>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input id="email" type="email" name="email" placeholder="yourdomain@gmail.com" required>
+                    <br>
+                    <br>
+                    <label for="email2">Confirm Email Address:</label>
+                    <input id="email2" type="email" name="email2" placeholder="yourdomain@gmail.com" required>
+                    <br>
+                    <br>
+                    <label for="question">Message:</label>
+                    <br>
+                    <textarea id="question" name="question" required rows="8" cols="90" placeholder="Ask your question :)"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" onclick="checkEmail()" value="SUBMIT">
+                </form>
+                <div class="question">
+                    <img src="question.jpeg" alt="question mark" width="400rem">
+                    <sup>2</sup>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <div class="footer">
+            <nav>
+                <ul>
+                    <li><a href="contact.html" style="text-decoration: none;">Contact Us</a></li>
+                    <li><a href="referenceContact.html">References</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</html>
